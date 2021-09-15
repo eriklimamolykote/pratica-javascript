@@ -1,0 +1,22 @@
+body {
+    /* background-color: darkblue; */
+    font-family: sans-serif;
+}
+
+h2 {
+    /* color: white; */
+}
+
+p#para1 {
+    /* color: lightgreen; */
+}
+
+h1#demo {
+    /* background-color: purple; */
+    color: white;
+    /* border-radius: 20px; */
+    /* border: 2px solid purple; */
+    padding: 20px;
+    width: 110px;
+    height: 70px;
+}
