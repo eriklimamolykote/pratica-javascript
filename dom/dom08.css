@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+p#p1 {
+    background-color: purple;
+    color: white;
+    border: 3px solid black;
+    width: 90px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
