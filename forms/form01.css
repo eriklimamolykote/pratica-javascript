@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+div#nome {
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    width: 55px;
+    text-align: center;
+}
