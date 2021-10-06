@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+
+p#p1 {
+    background: purple;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+p#id2 {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+p#first {
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+p {
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}

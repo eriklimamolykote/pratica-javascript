@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+p#id02 {
+    background: purple;
+    font-weight: bold;
+    color: white;
+    border: 3px solid black;
+    width: 12px;
+}
