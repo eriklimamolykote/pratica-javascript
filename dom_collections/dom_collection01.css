@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+p#brasil {
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    width: 102px
+}
