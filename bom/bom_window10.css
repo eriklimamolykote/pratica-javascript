@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+    background-color: powderblue;
+}
+
+p#demo {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: max-content;
+}
+
+p#caminho {
+    background-color: lightslategray;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: max-content;
+}

@@ -1,0 +1,1 @@
+document.getElementById("tela").innerHTML = screen.height + " px";

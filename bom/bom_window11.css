@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+    background-color: lightsalmon;
+}
+
+h2, h3 {
+    color: white;
+}
+
+p#demo {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: max-content;
+}
+
+p#protocolo {
+    background-color: indianred;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: max-content;
+}

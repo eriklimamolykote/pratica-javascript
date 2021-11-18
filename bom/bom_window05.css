@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+    background-color: steelblue;
+}
+
+p#demo {
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: max-content;
+}
+
+p#tela {
+    background-color: mediumblue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: max-content;
+}

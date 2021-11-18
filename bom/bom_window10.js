@@ -1,0 +1,1 @@
+document.getElementById("caminho").innerHTML = window.location.pathname;
