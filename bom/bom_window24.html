@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="pt-BR"></meta>
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" href="bom_window24.css">
+    </head>
+    <body>
+
+        <h2>Temporização JavaScript</h2>
+
+        <p>Clique em "Tente". Espere 3 segundos e a página 
+            alertará "Olá".</p>
+
+        <p>Clique em "Parar" para prevenir a primeira função de 
+            ser executada.</p>
+        <p>(Você deve clicar em "Parar" antes de 3 segundos.)</p>        
+
+        <button onclick="myVar = setTimeout(myFunction, 3000)">Tente</button>
+
+        <button onclick="clearTimeout(myVar)">Parar</button>
+        
+        <script src="bom_window24.js" type="text/javascript"></script>
+
+    </body>
+</html>

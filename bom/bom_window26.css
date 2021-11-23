@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgb(4, 58, 13), black);
+    color: white;
+}
+
+button {
+    background: blue;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+p#demo {
+    font-family: 'Press Start 2p';
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: max-content;
+    background: black;
+}
