@@ -1,0 +1,15 @@
+body {
+
+    background-image: linear-gradient( to right, black, blue );
+    color: white;
+
+}
+
+button {
+
+    background-image: linear-gradient( to bottom right, black, green );
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
