@@ -1,0 +1,41 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+        <link rel="stylesheet" href="index4.css">
+    </head>
+    <body>
+        
+        <div id="app">
+            <componente-pai>
+                <componente-filho></componente-filho>
+            </componente-pai>
+        </div>
+
+        <script>
+
+            Vue.component('componentePai', {
+                template: `<div><p>Texto do componente pai</p>
+                                <componente-filho></componente-filho>
+                                <componente-filho></componente-filho>
+                            </div>`
+            })
+
+            Vue.component('componenteFilho', {
+                template: `<div><p>Texto do componente filho</p></div>`
+            })
+
+            new Vue({
+                el: '#app',
+                component: [
+                    'componentepai',
+                    'componentefilho',
+                ]
+            })
+
+        </script>
+    </body>
+</html>

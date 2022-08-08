@@ -1,0 +1,51 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+    </head>
+    <body>
+        
+        <div id="app">
+            <p>{{ nome }}</p>
+            <button @click="alterarNome">Alterar nome</button>
+            <button @click="destruirInstancia">Destruir</button>
+        </div>
+
+        <script>
+
+            let app = new Vue({
+                el: '#app',
+                data: {
+                    nome: '',
+                },
+                methods: {
+                    alterarNome() {
+                        this.nome = 'Erik';
+                    },
+                    destruirInstancia() {
+                        app.$destroy()
+                    }
+                },
+                beforeCreate() {
+                    console.log( 'Antes de criar' );
+                },
+                created() {
+                    console.log( 'Criado' );
+                },
+                mounted() {
+                    console.log( 'Instância foi montada' );
+                },
+                updated() {
+                    console.log( 'Instância atualizada' );
+                },
+                destroyed() {
+                    console.log( 'Instância foi destruída' );
+                }
+            });
+
+        </script>
+    </body>
+</html>
