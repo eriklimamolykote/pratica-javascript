@@ -1,0 +1,77 @@
+body {
+
+    background-image: linear-gradient( to right, rgb(44, 0, 44), black );
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+h1#title {
+
+    font-family: serif;
+    font-style: italic;
+}
+
+p#name {
+
+    background-color: rgb(0, 82, 24);
+    border: 2px solid white;
+    width: fit-content;
+
+}
+
+p#age {
+
+    background-color: rgb( 0, 0, 255 );
+    border: 2px solid white;
+    width: fit-content;
+
+}
+
+p#gender {
+
+    background-color: rgb(192, 74, 0);
+    border: 2px solid white;
+    width: fit-content;
+
+}
+
+p#author {
+
+    background-color: white;
+    color: black;
+    width: fit-content;
+
+}
+
+p#year {
+
+    background-color: rgb( 0, 0, 0 );
+    border: 2px solid rgb( 255, 255, 255 );
+    color: rgb( 255, 255, 255 );
+    width: fit-content;
+
+}
+
+p#country {
+
+    background-image: linear-gradient( to right, rgb(140, 110, 0), rgb( 0, 0, 0 ) );
+    border: 2px solid white;
+    width: fit-content;
+
+}
+
+p#email {
+
+    background-image: linear-gradient( to right, rgb(63, 63, 63), rgb( 0, 0, 0 ) );
+    border: 2px solid white;
+    width: fit-content;
+    
+}
+
+strong#note {
+
+    font-family: serif;
+    font-style: normal;
+
+}
