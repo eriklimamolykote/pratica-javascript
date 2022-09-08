@@ -1,0 +1,55 @@
+body {
+
+    background-image: linear-gradient( to right, rgb( 47, 47, 47 ), rgb( 0, 0, 0 ) );
+    color: white;
+    font-family: sans-serif;
+
+}
+
+li {
+
+    background-image: linear-gradient( to right, rgb( 0, 125, 0 ), rgb( 0, 0, 0 ) );
+    border: 2px solid white;
+    width: fit-content;
+
+}
+
+p {
+
+    border: 2px solid white;
+    width: fit-content;
+
+}
+
+p#mark {
+
+    border: 2px solid white;
+    width: fit-content;
+    color: black;
+
+}
+
+p.test {
+
+    border: 2px solid white;
+    width: fit-content;
+    color: black;
+
+}
+
+div.block.test {
+
+    border: 2px solid white;
+    width: fit-content;
+    color: black;
+
+}
+
+p#result {
+
+    background-image: linear-gradient( to right, rgb( 0, 0, 145 ), rgb( 0, 0, 0 ) );
+    border: 2px solid white;
+    width: fit-content;
+    color: result;
+
+}

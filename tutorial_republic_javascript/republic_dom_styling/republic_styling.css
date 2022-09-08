@@ -1,0 +1,17 @@
+body {
+
+    background-image: linear-gradient( to right, rgb( 47, 47, 47 ), rgb( 0, 0, 0 ) );
+    font-family: sans-serif;
+    color: white;
+
+}
+
+p#another {
+
+    background-image: linear-gradient( to right, rgb( 0, 0, 145 ), rgb( 0, 0, 0 ) );
+    font-family: sans-serif;
+    color: white;
+    border: 2px solid white;
+    width: fit-content;
+
+}
